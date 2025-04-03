@@ -1,0 +1,24 @@
+Partlist exported from C:/Users/XUZHAO/Documents/EAGLE/projects/EE326/board.sch at 2025/2/20 17:21
+
+Qty Value             Device            Package                 Parts                                      Description 
+10  0.1uF             CAP               0805                    C1, C5, C6, C7, C8, C9, C11, C13, C14, C15             
+1   10k               RES               0805                    R1                                                     
+1   10uH              IND               0805                    I1                                                     
+2   18pF              CAP               0805                    C12, C16                                               
+2   1R0               RES               0805                    R6, R7                                                 
+2   1k                RES               0805                    R8, R9                                                 
+3   1uF               CAP               0805                    C2, C3, C4                                             
+2   2X3_PROG          2X3_PROG          2X3_0.1IN               MCU_HEADER, WIFI_HEADER                                
+4   330R              RES               0805                    R2, R3, R4, R5                                         
+1   4.7uF             CAP               0805                    C10                                                    
+1   BARREL_2.1MMSMT   BARREL_2.1MMSMT   DCJACK_2MM_SMT          U$11                                                   
+1   BLUE              LED0603           LED-0603                LED1                                       LEDs        
+1   CAM_OV2640OUTLINE CAM_OV2640OUTLINE CAM_CONN                CAM_OV2640                                             
+1   ESP32-WROOM-32E   ESP32-WROOM-32E   ESP32-WROOM-32E         ESP32-WROOM-32E                                        
+1   GREEN             LED0603           LED-0603                LED3                                       LEDs        
+1   MCU_ATSAM4S8B     MCU_ATSAM4S8B     QFP50P1200X1200X160-64N ATSAM4S8B                                              
+1   RED               LED0603           LED-0603                LED4                                       LEDs        
+4   SWITCH_BTN_NO     SWITCH_BTN_NO     BTN_2                   IO0, MCU_RESET, PROVISION, WIFI_RESET                  
+1   VREG-3V3          VREG-3V3          R-PDSO-G4_TI            VREG-3V3                                               
+1   XTAL_12MHZ        XTAL_12MHZ        ABM7-16.000MHZ-D2Y-T    XTAL_12MHZ                                             
+1   YELLOW            LED0603           LED-0603                LED2                                       LEDs        
