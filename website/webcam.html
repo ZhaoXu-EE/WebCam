@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Automation System - Webcam</title>
+  <link rel="stylesheet" href="webcam_styles.css">
+  <script src="webcam_functions.js" defer></script>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="homepage.html">Home</a></li>
+      <li><a href="webcam.html">Webcam</a></li>
+      <li><a href="info.html">Info</a></li>
+      <li><a href="edit.html" target="_blank">File Editor</a></li>
+    </ul>
+  </nav>
+  
+  <header>
+    <h1>Webcam Stream</h1>
+  </header>
+  
+  <section class="webcam-container">
+    <button id="streamButton">Start Webcam</button>
+    <div id="timestamp">Timestamp: --:--:--</div>
+    <img id="webcamImage" src="placeholder.jpg" alt="Webcam Stream">
+    <div id="msg" class="message-log"></div>
+  </section>
+  
+  <footer>
+    <p>&copy; 2025 Home Automation System</p>
+  </footer>
+</body>
+</html>

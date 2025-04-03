@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6f7ff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #003366;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.webcam-container {
+  text-align: center;
+  margin: 20px;
+}
+
+#streamButton {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #0073e6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#streamButton:hover {
+  background-color: #005bb5;
+}
+
+#streamButton:disabled {
+  background-color: #7fbfff;
+  cursor: not-allowed;
+}
+
+@keyframes clickAnimation {
+  0% { transform: scale(1); }
+  50% { transform: scale(0.9); }
+  100% { transform: scale(1); }
+}
+
+#streamButton:active {
+  animation: clickAnimation 0.2s;
+}
+
+#timestamp {
+  margin: 10px;
+  font-size: 18px;
+  color: #0073e6;
+}
+
+#webcamImage {
+  max-width: 90%;
+  border: 2px solid #003366;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.message-log {
+  margin: 10px auto;
+  width: 80%;
+  height: 100px;
+  overflow-y: auto;
+  background-color: #f0f0f0;
+  border: 1px solid #0073e6;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: monospace;
+  font-size: 14px;
+  color: #333;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #003366;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
